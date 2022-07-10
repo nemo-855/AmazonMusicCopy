@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551A0A52287AB63B00104617 /* amazon_music_copyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A0A51287AB63B00104617 /* amazon_music_copyApp.swift */; };
+		551A0A54287AB63B00104617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A0A53287AB63B00104617 /* ContentView.swift */; };
+		551A0A56287AB63F00104617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551A0A55287AB63F00104617 /* Assets.xcassets */; };
+		551A0A59287AB63F00104617 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551A0A58287AB63F00104617 /* Preview Assets.xcassets */; };
+		551A0A63287AB63F00104617 /* amazon_music_copyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A0A62287AB63F00104617 /* amazon_music_copyTests.swift */; };
+		551A0A6D287AB63F00104617 /* amazon_music_copyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A0A6C287AB63F00104617 /* amazon_music_copyUITests.swift */; };
+		551A0A6F287AB63F00104617 /* amazon_music_copyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A0A6E287AB63F00104617 /* amazon_music_copyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		551A0A5F287AB63F00104617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551A0A46287AB63B00104617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 551A0A4D287AB63B00104617;
+			remoteInfo = amazon_music_copy;
+		};
+		551A0A69287AB63F00104617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551A0A46287AB63B00104617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 551A0A4D287AB63B00104617;
+			remoteInfo = amazon_music_copy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		551A0A4E287AB63B00104617 /* amazon_music_copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amazon_music_copy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		551A0A51287AB63B00104617 /* amazon_music_copyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amazon_music_copyApp.swift; sourceTree = "<group>"; };
+		551A0A53287AB63B00104617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		551A0A55287AB63F00104617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		551A0A58287AB63F00104617 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		551A0A5E287AB63F00104617 /* amazon_music_copyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amazon_music_copyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		551A0A62287AB63F00104617 /* amazon_music_copyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amazon_music_copyTests.swift; sourceTree = "<group>"; };
+		551A0A68287AB63F00104617 /* amazon_music_copyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amazon_music_copyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		551A0A6C287AB63F00104617 /* amazon_music_copyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amazon_music_copyUITests.swift; sourceTree = "<group>"; };
+		551A0A6E287AB63F00104617 /* amazon_music_copyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amazon_music_copyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		551A0A4B287AB63B00104617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551A0A5B287AB63F00104617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551A0A65287AB63F00104617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		551A0A45287AB63B00104617 = {
+			isa = PBXGroup;
+			children = (
+				551A0A50287AB63B00104617 /* amazon_music_copy */,
+				551A0A61287AB63F00104617 /* amazon_music_copyTests */,
+				551A0A6B287AB63F00104617 /* amazon_music_copyUITests */,
+				551A0A4F287AB63B00104617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		551A0A4F287AB63B00104617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				551A0A4E287AB63B00104617 /* amazon_music_copy.app */,
+				551A0A5E287AB63F00104617 /* amazon_music_copyTests.xctest */,
+				551A0A68287AB63F00104617 /* amazon_music_copyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		551A0A50287AB63B00104617 /* amazon_music_copy */ = {
+			isa = PBXGroup;
+			children = (
+				551A0A51287AB63B00104617 /* amazon_music_copyApp.swift */,
+				551A0A53287AB63B00104617 /* ContentView.swift */,
+				551A0A55287AB63F00104617 /* Assets.xcassets */,
+				551A0A57287AB63F00104617 /* Preview Content */,
+			);
+			path = amazon_music_copy;
+			sourceTree = "<group>";
+		};
+		551A0A57287AB63F00104617 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				551A0A58287AB63F00104617 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		551A0A61287AB63F00104617 /* amazon_music_copyTests */ = {
+			isa = PBXGroup;
+			children = (
+				551A0A62287AB63F00104617 /* amazon_music_copyTests.swift */,
+			);
+			path = amazon_music_copyTests;
+			sourceTree = "<group>";
+		};
+		551A0A6B287AB63F00104617 /* amazon_music_copyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				551A0A6C287AB63F00104617 /* amazon_music_copyUITests.swift */,
+				551A0A6E287AB63F00104617 /* amazon_music_copyUITestsLaunchTests.swift */,
+			);
+			path = amazon_music_copyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		551A0A4D287AB63B00104617 /* amazon_music_copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551A0A72287AB63F00104617 /* Build configuration list for PBXNativeTarget "amazon_music_copy" */;
+			buildPhases = (
+				551A0A4A287AB63B00104617 /* Sources */,
+				551A0A4B287AB63B00104617 /* Frameworks */,
+				551A0A4C287AB63B00104617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = amazon_music_copy;
+			productName = amazon_music_copy;
+			productReference = 551A0A4E287AB63B00104617 /* amazon_music_copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		551A0A5D287AB63F00104617 /* amazon_music_copyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551A0A75287AB63F00104617 /* Build configuration list for PBXNativeTarget "amazon_music_copyTests" */;
+			buildPhases = (
+				551A0A5A287AB63F00104617 /* Sources */,
+				551A0A5B287AB63F00104617 /* Frameworks */,
+				551A0A5C287AB63F00104617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551A0A60287AB63F00104617 /* PBXTargetDependency */,
+			);
+			name = amazon_music_copyTests;
+			productName = amazon_music_copyTests;
+			productReference = 551A0A5E287AB63F00104617 /* amazon_music_copyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		551A0A67287AB63F00104617 /* amazon_music_copyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551A0A78287AB63F00104617 /* Build configuration list for PBXNativeTarget "amazon_music_copyUITests" */;
+			buildPhases = (
+				551A0A64287AB63F00104617 /* Sources */,
+				551A0A65287AB63F00104617 /* Frameworks */,
+				551A0A66287AB63F00104617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551A0A6A287AB63F00104617 /* PBXTargetDependency */,
+			);
+			name = amazon_music_copyUITests;
+			productName = amazon_music_copyUITests;
+			productReference = 551A0A68287AB63F00104617 /* amazon_music_copyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		551A0A46287AB63B00104617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					551A0A4D287AB63B00104617 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					551A0A5D287AB63F00104617 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 551A0A4D287AB63B00104617;
+					};
+					551A0A67287AB63F00104617 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 551A0A4D287AB63B00104617;
+					};
+				};
+			};
+			buildConfigurationList = 551A0A49287AB63B00104617 /* Build configuration list for PBXProject "amazon_music_copy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 551A0A45287AB63B00104617;
+			productRefGroup = 551A0A4F287AB63B00104617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				551A0A4D287AB63B00104617 /* amazon_music_copy */,
+				551A0A5D287AB63F00104617 /* amazon_music_copyTests */,
+				551A0A67287AB63F00104617 /* amazon_music_copyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		551A0A4C287AB63B00104617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551A0A59287AB63F00104617 /* Preview Assets.xcassets in Resources */,
+				551A0A56287AB63F00104617 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551A0A5C287AB63F00104617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551A0A66287AB63F00104617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		551A0A4A287AB63B00104617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551A0A54287AB63B00104617 /* ContentView.swift in Sources */,
+				551A0A52287AB63B00104617 /* amazon_music_copyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551A0A5A287AB63F00104617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551A0A63287AB63F00104617 /* amazon_music_copyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551A0A64287AB63F00104617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551A0A6D287AB63F00104617 /* amazon_music_copyUITests.swift in Sources */,
+				551A0A6F287AB63F00104617 /* amazon_music_copyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		551A0A60287AB63F00104617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 551A0A4D287AB63B00104617 /* amazon_music_copy */;
+			targetProxy = 551A0A5F287AB63F00104617 /* PBXContainerItemProxy */;
+		};
+		551A0A6A287AB63F00104617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 551A0A4D287AB63B00104617 /* amazon_music_copy */;
+			targetProxy = 551A0A69287AB63F00104617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		551A0A70287AB63F00104617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		551A0A71287AB63F00104617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		551A0A73287AB63F00104617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"amazon_music_copy/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H5R6Q72QJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nemo.amazon-music-copy.amazon-music-copy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		551A0A74287AB63F00104617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"amazon_music_copy/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H5R6Q72QJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nemo.amazon-music-copy.amazon-music-copy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		551A0A76287AB63F00104617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H5R6Q72QJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nemo.amazon-music-copy.amazon-music-copyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amazon_music_copy.app/amazon_music_copy";
+			};
+			name = Debug;
+		};
+		551A0A77287AB63F00104617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H5R6Q72QJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nemo.amazon-music-copy.amazon-music-copyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amazon_music_copy.app/amazon_music_copy";
+			};
+			name = Release;
+		};
+		551A0A79287AB63F00104617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H5R6Q72QJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nemo.amazon-music-copy.amazon-music-copyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = amazon_music_copy;
+			};
+			name = Debug;
+		};
+		551A0A7A287AB63F00104617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6H5R6Q72QJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nemo.amazon-music-copy.amazon-music-copyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = amazon_music_copy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		551A0A49287AB63B00104617 /* Build configuration list for PBXProject "amazon_music_copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551A0A70287AB63F00104617 /* Debug */,
+				551A0A71287AB63F00104617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551A0A72287AB63F00104617 /* Build configuration list for PBXNativeTarget "amazon_music_copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551A0A73287AB63F00104617 /* Debug */,
+				551A0A74287AB63F00104617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551A0A75287AB63F00104617 /* Build configuration list for PBXNativeTarget "amazon_music_copyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551A0A76287AB63F00104617 /* Debug */,
+				551A0A77287AB63F00104617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551A0A78287AB63F00104617 /* Build configuration list for PBXNativeTarget "amazon_music_copyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551A0A79287AB63F00104617 /* Debug */,
+				551A0A7A287AB63F00104617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 551A0A46287AB63B00104617 /* Project object */;
+}
