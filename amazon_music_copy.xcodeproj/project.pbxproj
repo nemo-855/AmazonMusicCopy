@@ -32,6 +32,8 @@
 		556112E128840B0C00B80A52 /* ArticleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112E028840B0C00B80A52 /* ArticleRequest.swift */; };
 		556112E328840DA700B80A52 /* ResultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112E228840DA700B80A52 /* ResultHandler.swift */; };
 		556112E528840DDD00B80A52 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112E428840DDD00B80A52 /* APIError.swift */; };
+		556112E8288411FB00B80A52 /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112E7288411FB00B80A52 /* Dispatcher.swift */; };
+		556112EB288412D600B80A52 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112EA288412D600B80A52 /* Action.swift */; };
 		9AF54A4B7E1DA414FD669652 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FCA5806987C97A8B644C21 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */; };
 		B60769539BA9732E4776808C /* Pods_amazon_music_copyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90869BA09F4775C49A68FF3E /* Pods_amazon_music_copyTests.framework */; };
 		EBAE3F275BB97D607B96617C /* Pods_amazon_music_copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA97B62C2FF534A07A161376 /* Pods_amazon_music_copy.framework */; };
@@ -85,6 +87,8 @@
 		556112E028840B0C00B80A52 /* ArticleRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRequest.swift; sourceTree = "<group>"; };
 		556112E228840DA700B80A52 /* ResultHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultHandler.swift; sourceTree = "<group>"; };
 		556112E428840DDD00B80A52 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		556112E7288411FB00B80A52 /* Dispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
+		556112EA288412D600B80A52 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		5C6AB6ED9E5BCCAF775AA5C2 /* Pods-amazon_music_copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copy.debug.xcconfig"; path = "Target Support Files/Pods-amazon_music_copy/Pods-amazon_music_copy.debug.xcconfig"; sourceTree = "<group>"; };
 		88FCA5806987C97A8B644C21 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copy_amazon_music_copyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90869BA09F4775C49A68FF3E /* Pods_amazon_music_copyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				556112DC28840A3C00B80A52 /* actioncreator */,
+				556112EC2884130F00B80A52 /* action */,
+				556112E6288411ED00B80A52 /* Dispatcher */,
 				556112D5288401E700B80A52 /* network */,
 				551A0A7B287AB6C700104617 /* ui */,
 				551A0A51287AB63B00104617 /* amazon_music_copyApp.swift */,
@@ -310,6 +316,23 @@
 				556112E028840B0C00B80A52 /* ArticleRequest.swift */,
 			);
 			path = Request;
+			sourceTree = "<group>";
+		};
+		556112E6288411ED00B80A52 /* Dispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				556112E7288411FB00B80A52 /* Dispatcher.swift */,
+			);
+			path = Dispatcher;
+			sourceTree = "<group>";
+		};
+		556112EC2884130F00B80A52 /* action */ = {
+			isa = PBXGroup;
+			children = (
+				556112EA288412D600B80A52 /* Action.swift */,
+			);
+			name = action;
+			path = action/action;
 			sourceTree = "<group>";
 		};
 		62E6DE7C77B934130BFEA676 /* Pods */ = {
@@ -585,7 +608,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				556112CB2883E98D00B80A52 /* TextAppearances.swift in Sources */,
+				556112EB288412D600B80A52 /* Action.swift in Sources */,
 				556112C12883CE2800B80A52 /* Color-Constants.swift in Sources */,
+				556112E8288411FB00B80A52 /* Dispatcher.swift in Sources */,
 				556112B42883BF3F00B80A52 /* ImageOfRoundedCorners.swift in Sources */,
 				556112E528840DDD00B80A52 /* APIError.swift in Sources */,
 				556112CF2883F42200B80A52 /* Dimentions.swift in Sources */,
