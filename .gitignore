@@ -24,4 +24,4 @@ Pods/*
 !.gitkeep
 .DS_Store
 
-Resources/Generated/*
+Sources/Generated/*
