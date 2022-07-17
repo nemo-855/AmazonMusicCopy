@@ -12,6 +12,7 @@ struct amazon_music_copyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .background(Color(Colors.black.name))
         }
     }
 }

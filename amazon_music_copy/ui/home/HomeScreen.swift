@@ -18,6 +18,11 @@ struct HomeScreen : View {
                         height: metrics.size.width * 0.5
                     )
             }
+            .frame(
+                maxWidth: .infinity,
+                maxHeight: .infinity,
+                alignment: .leading
+            )
         }
     }
 }
