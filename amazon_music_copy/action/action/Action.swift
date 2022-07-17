@@ -8,5 +8,7 @@
 import Foundation
 
 enum Action {
-    case getArticles
+    case getArticles([Article])
+    case isRepositoriesFetching(Bool)
+    case error(Error?)
 }

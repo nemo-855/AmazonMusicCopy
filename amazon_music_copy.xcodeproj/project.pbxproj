@@ -28,12 +28,16 @@
 		556112D22883FC5300B80A52 /* TitleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112D12883FC5300B80A52 /* TitleItem.swift */; };
 		556112D82884020F00B80A52 /* FetchArticlesResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112D72884020F00B80A52 /* FetchArticlesResponce.swift */; };
 		556112DB288403C800B80A52 /* BaseUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112DA288403C800B80A52 /* BaseUrl.swift */; };
-		556112DE28840A7C00B80A52 /* ArticleActionCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112DD28840A7C00B80A52 /* ArticleActionCreator.swift */; };
+		556112DE28840A7C00B80A52 /* ActionCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112DD28840A7C00B80A52 /* ActionCreator.swift */; };
 		556112E128840B0C00B80A52 /* ArticleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112E028840B0C00B80A52 /* ArticleRequest.swift */; };
 		556112E328840DA700B80A52 /* ResultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112E228840DA700B80A52 /* ResultHandler.swift */; };
 		556112E528840DDD00B80A52 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112E428840DDD00B80A52 /* APIError.swift */; };
 		556112E8288411FB00B80A52 /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112E7288411FB00B80A52 /* Dispatcher.swift */; };
 		556112EB288412D600B80A52 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112EA288412D600B80A52 /* Action.swift */; };
+		556112EF28841ACF00B80A52 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112EE28841ACF00B80A52 /* Store.swift */; };
+		556112F128841D5500B80A52 /* HomeScreenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112F028841D5500B80A52 /* HomeScreenStore.swift */; };
+		556112F428841DC200B80A52 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112F328841DC200B80A52 /* Article.swift */; };
+		556112F628841DE200B80A52 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112F528841DE200B80A52 /* User.swift */; };
 		9AF54A4B7E1DA414FD669652 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FCA5806987C97A8B644C21 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */; };
 		B60769539BA9732E4776808C /* Pods_amazon_music_copyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90869BA09F4775C49A68FF3E /* Pods_amazon_music_copyTests.framework */; };
 		EBAE3F275BB97D607B96617C /* Pods_amazon_music_copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA97B62C2FF534A07A161376 /* Pods_amazon_music_copy.framework */; };
@@ -83,12 +87,16 @@
 		556112D12883FC5300B80A52 /* TitleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleItem.swift; sourceTree = "<group>"; };
 		556112D72884020F00B80A52 /* FetchArticlesResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchArticlesResponce.swift; sourceTree = "<group>"; };
 		556112DA288403C800B80A52 /* BaseUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUrl.swift; sourceTree = "<group>"; };
-		556112DD28840A7C00B80A52 /* ArticleActionCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleActionCreator.swift; sourceTree = "<group>"; };
+		556112DD28840A7C00B80A52 /* ActionCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCreator.swift; sourceTree = "<group>"; };
 		556112E028840B0C00B80A52 /* ArticleRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRequest.swift; sourceTree = "<group>"; };
 		556112E228840DA700B80A52 /* ResultHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultHandler.swift; sourceTree = "<group>"; };
 		556112E428840DDD00B80A52 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		556112E7288411FB00B80A52 /* Dispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
 		556112EA288412D600B80A52 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		556112EE28841ACF00B80A52 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		556112F028841D5500B80A52 /* HomeScreenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenStore.swift; sourceTree = "<group>"; };
+		556112F328841DC200B80A52 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		556112F528841DE200B80A52 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5C6AB6ED9E5BCCAF775AA5C2 /* Pods-amazon_music_copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copy.debug.xcconfig"; path = "Target Support Files/Pods-amazon_music_copy/Pods-amazon_music_copy.debug.xcconfig"; sourceTree = "<group>"; };
 		88FCA5806987C97A8B644C21 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copy_amazon_music_copyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90869BA09F4775C49A68FF3E /* Pods_amazon_music_copyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +170,8 @@
 		551A0A50287AB63B00104617 /* amazon_music_copy */ = {
 			isa = PBXGroup;
 			children = (
+				556112F228841D9700B80A52 /* entity */,
+				556112ED28841ABC00B80A52 /* store */,
 				556112DC28840A3C00B80A52 /* actioncreator */,
 				556112EC2884130F00B80A52 /* action */,
 				556112E6288411ED00B80A52 /* Dispatcher */,
@@ -305,7 +315,7 @@
 		556112DC28840A3C00B80A52 /* actioncreator */ = {
 			isa = PBXGroup;
 			children = (
-				556112DD28840A7C00B80A52 /* ArticleActionCreator.swift */,
+				556112DD28840A7C00B80A52 /* ActionCreator.swift */,
 			);
 			path = actioncreator;
 			sourceTree = "<group>";
@@ -333,6 +343,24 @@
 			);
 			name = action;
 			path = action/action;
+			sourceTree = "<group>";
+		};
+		556112ED28841ABC00B80A52 /* store */ = {
+			isa = PBXGroup;
+			children = (
+				556112EE28841ACF00B80A52 /* Store.swift */,
+				556112F028841D5500B80A52 /* HomeScreenStore.swift */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
+		556112F228841D9700B80A52 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				556112F328841DC200B80A52 /* Article.swift */,
+				556112F528841DE200B80A52 /* User.swift */,
+			);
+			path = entity;
 			sourceTree = "<group>";
 		};
 		62E6DE7C77B934130BFEA676 /* Pods */ = {
@@ -607,25 +635,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556112F428841DC200B80A52 /* Article.swift in Sources */,
 				556112CB2883E98D00B80A52 /* TextAppearances.swift in Sources */,
 				556112EB288412D600B80A52 /* Action.swift in Sources */,
 				556112C12883CE2800B80A52 /* Color-Constants.swift in Sources */,
+				556112F128841D5500B80A52 /* HomeScreenStore.swift in Sources */,
 				556112E8288411FB00B80A52 /* Dispatcher.swift in Sources */,
 				556112B42883BF3F00B80A52 /* ImageOfRoundedCorners.swift in Sources */,
 				556112E528840DDD00B80A52 /* APIError.swift in Sources */,
 				556112CF2883F42200B80A52 /* Dimentions.swift in Sources */,
 				556112B62883C19E00B80A52 /* ImageWithTextItem.swift in Sources */,
-				556112DE28840A7C00B80A52 /* ArticleActionCreator.swift in Sources */,
+				556112DE28840A7C00B80A52 /* ActionCreator.swift in Sources */,
 				556112DB288403C800B80A52 /* BaseUrl.swift in Sources */,
 				556112D22883FC5300B80A52 /* TitleItem.swift in Sources */,
 				556112C32883CE3300B80A52 /* Image-Constants.swift in Sources */,
 				556112CD2883F0E900B80A52 /* HomeScreen.swift in Sources */,
 				551A0A54287AB63B00104617 /* ContentView.swift in Sources */,
 				556112E328840DA700B80A52 /* ResultHandler.swift in Sources */,
+				556112EF28841ACF00B80A52 /* Store.swift in Sources */,
 				556112C52883CE4200B80A52 /* MainString-Constants.swift in Sources */,
 				556112D82884020F00B80A52 /* FetchArticlesResponce.swift in Sources */,
 				551A0A52287AB63B00104617 /* amazon_music_copyApp.swift in Sources */,
 				556112E128840B0C00B80A52 /* ArticleRequest.swift in Sources */,
+				556112F628841DE200B80A52 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

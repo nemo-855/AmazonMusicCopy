@@ -12,10 +12,26 @@ struct FetchArticleResponce: Codable {
     let url: String
     let title: String
     let user: UserResponce
+    
+    func toArticle() -> Article {
+        return Article(
+            id: id,
+            url: url,
+            title: title,
+            user: user.toUser()
+        )
+    }
 }
 
 struct UserResponce: Codable {
     let name: String
     let description: String
+    
+    func toUser() -> User {
+        return User(
+            name: name,
+            description: description
+        )
+    }
 }
 

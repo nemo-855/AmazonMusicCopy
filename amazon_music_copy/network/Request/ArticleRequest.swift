@@ -10,7 +10,7 @@ import Alamofire
 
 final class ArticleRequest {
     static let shared = ArticleRequest()
-    func fetchArticles(handler: @escaping ResultHandler<[FetchArticleResponce]>) {
+    func fetchArticles(handler: @escaping ResultHandler<[Article]>) {
         let urlString = BaseUrl.v2 + "/items"
         if URL(string: urlString) == nil {
             handler(.failure(.invalidURL))
@@ -24,7 +24,9 @@ final class ArticleRequest {
             }
             do {
                 let articles = try JSONDecoder().decode([FetchArticleResponce].self, from: data)
-                handler(.success(articles))
+                handler(.success(articles.map { article in
+                    article.toArticle()
+                }))
             } catch {
                 handler(.failure(.unknown(error)))
             }
