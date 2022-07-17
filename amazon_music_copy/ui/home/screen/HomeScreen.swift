@@ -11,7 +11,12 @@ import SwiftUI
 struct HomeScreen : View {
     var body: some View {
         GeometryReader { metrics in
-            VStack {
+            VStack(
+                alignment: .leading,
+                spacing: Dimentions.marginLarge
+            ) {
+                TitleItem()
+                
                 ImageWithTextItem()
                     .frame(
                         width: metrics.size.width * 0.4,
@@ -23,6 +28,8 @@ struct HomeScreen : View {
                 maxHeight: .infinity,
                 alignment: .leading
             )
+            .padding(.leading, Dimentions.marginMedium)
+            .padding(.trailing, Dimentions.marginMedium)
         }
     }
 }
