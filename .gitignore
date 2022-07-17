@@ -25,3 +25,4 @@ Pods/*
 .DS_Store
 
 Sources/Generated/*
+.zshrc.amazon_music_copy

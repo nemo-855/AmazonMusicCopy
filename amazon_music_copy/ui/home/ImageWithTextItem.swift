@@ -10,14 +10,18 @@ import SwiftUI
 
 struct ImageWithTextItem : View {
     var body: some View {
-        VStack {
+        VStack(alignment: HorizontalAlignment.leading) {
             ImageOfRoundedCorners(
-                imagePath: "niziu",
-                cornerRadius: 20
+                imagePath: Images.niziu.name,
+                cornerRadius: Dimentions.mediumCornerRadius
             )
-        }.aspectRatio(
-            1/1,
-            contentMode: .fill
-        )
+            MediumText(
+                text: "2022年上半期 Best"
+            ).lineLimit(1)
+            SmallText(
+                text: "Aimer, 優里, Ado 他にもいっぱい！",
+                color: Color(Colors.gray.name)
+            ).lineLimit(1)
+        }
     }
 }
