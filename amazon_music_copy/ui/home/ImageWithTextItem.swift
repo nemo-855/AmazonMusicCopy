@@ -12,7 +12,7 @@ struct ImageWithTextItem : View {
     var body: some View {
         VStack {
             ImageOfRoundedCorners(
-                imagePath: "niziu",
+                imagePath: Images.niziu.name,
                 cornerRadius: 20
             )
         }.aspectRatio(

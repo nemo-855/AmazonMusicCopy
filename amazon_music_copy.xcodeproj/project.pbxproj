@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18BB1B2492F1388B9DA79195 /* Pods_amazon_music_copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8B3230CA96BD4404A5F344 /* Pods_amazon_music_copy.framework */; };
-		1D82DF76FDBBE5DB42C48480 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84F5FD418F91C02D6FA7FD5 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */; };
-		4B2FE6E98C1B828354648E9F /* Pods_amazon_music_copyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E080F381D7AB426E695581DE /* Pods_amazon_music_copyTests.framework */; };
+		3BFBE2DA8573D5B39E8B4BED /* Pods_amazon_music_copy_amazon_music_copyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE6FA8ECE18379202A3E02D /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */; };
 		551A0A52287AB63B00104617 /* amazon_music_copyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A0A51287AB63B00104617 /* amazon_music_copyApp.swift */; };
 		551A0A54287AB63B00104617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A0A53287AB63B00104617 /* ContentView.swift */; };
 		551A0A56287AB63F00104617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551A0A55287AB63F00104617 /* Assets.xcassets */; };
@@ -22,6 +20,11 @@
 		556112B82883C71B00B80A52 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556112B72883C71B00B80A52 /* Color.xcassets */; };
 		556112BA2883C73700B80A52 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556112B92883C73700B80A52 /* Image.xcassets */; };
 		556112BD2883CA8900B80A52 /* main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 556112BC2883CA8900B80A52 /* main.strings */; };
+		556112C12883CE2800B80A52 /* Color-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112C02883CE2800B80A52 /* Color-Constants.swift */; };
+		556112C32883CE3300B80A52 /* Image-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112C22883CE3300B80A52 /* Image-Constants.swift */; };
+		556112C52883CE4200B80A52 /* MainString-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112C42883CE4200B80A52 /* MainString-Constants.swift */; };
+		889899C5C245446EB415E3AA /* Pods_amazon_music_copyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EB57CB5A060364251B8A0E /* Pods_amazon_music_copyTests.framework */; };
+		AE82FC22DEC414B4C6939A1B /* Pods_amazon_music_copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EB794B1E2FD294E1953579 /* Pods_amazon_music_copy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20AC3163C30430A6896D3362 /* Pods-amazon_music_copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copy.debug.xcconfig"; path = "Target Support Files/Pods-amazon_music_copy/Pods-amazon_music_copy.debug.xcconfig"; sourceTree = "<group>"; };
+		037997C528DB28826862DAB4 /* Pods-amazon_music_copyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copyTests.debug.xcconfig"; path = "Target Support Files/Pods-amazon_music_copyTests/Pods-amazon_music_copyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E1ECF9AE9AF4C0C0DA5B1B5 /* Pods-amazon_music_copy-amazon_music_copyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copy-amazon_music_copyUITests.debug.xcconfig"; path = "Target Support Files/Pods-amazon_music_copy-amazon_music_copyUITests/Pods-amazon_music_copy-amazon_music_copyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		24EB57CB5A060364251B8A0E /* Pods_amazon_music_copyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E22FAFA51167CFC354F0E1 /* Pods-amazon_music_copy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copy.release.xcconfig"; path = "Target Support Files/Pods-amazon_music_copy/Pods-amazon_music_copy.release.xcconfig"; sourceTree = "<group>"; };
 		551A0A4E287AB63B00104617 /* amazon_music_copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amazon_music_copy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		551A0A51287AB63B00104617 /* amazon_music_copyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amazon_music_copyApp.swift; sourceTree = "<group>"; };
 		551A0A53287AB63B00104617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,14 +64,14 @@
 		556112B72883C71B00B80A52 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		556112B92883C73700B80A52 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		556112BC2883CA8900B80A52 /* main.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = main.strings; sourceTree = "<group>"; };
-		83ED86F78D39DCB23FF244BC /* Pods-amazon_music_copy-amazon_music_copyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copy-amazon_music_copyUITests.debug.xcconfig"; path = "Target Support Files/Pods-amazon_music_copy-amazon_music_copyUITests/Pods-amazon_music_copy-amazon_music_copyUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		84DBC2ED7C02E75148F12B74 /* Pods-amazon_music_copy-amazon_music_copyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copy-amazon_music_copyUITests.release.xcconfig"; path = "Target Support Files/Pods-amazon_music_copy-amazon_music_copyUITests/Pods-amazon_music_copy-amazon_music_copyUITests.release.xcconfig"; sourceTree = "<group>"; };
-		8A8B3230CA96BD4404A5F344 /* Pods_amazon_music_copy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BF62DAD98A0499DADD3E85D /* Pods-amazon_music_copyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copyTests.debug.xcconfig"; path = "Target Support Files/Pods-amazon_music_copyTests/Pods-amazon_music_copyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9A4A71D5FE10A825F6EC81FB /* Pods-amazon_music_copy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copy.release.xcconfig"; path = "Target Support Files/Pods-amazon_music_copy/Pods-amazon_music_copy.release.xcconfig"; sourceTree = "<group>"; };
-		BAEE7234527A204371BC384F /* Pods-amazon_music_copyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copyTests.release.xcconfig"; path = "Target Support Files/Pods-amazon_music_copyTests/Pods-amazon_music_copyTests.release.xcconfig"; sourceTree = "<group>"; };
-		C84F5FD418F91C02D6FA7FD5 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copy_amazon_music_copyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E080F381D7AB426E695581DE /* Pods_amazon_music_copyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		556112C02883CE2800B80A52 /* Color-Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color-Constants.swift"; sourceTree = "<group>"; };
+		556112C22883CE3300B80A52 /* Image-Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image-Constants.swift"; sourceTree = "<group>"; };
+		556112C42883CE4200B80A52 /* MainString-Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainString-Constants.swift"; sourceTree = "<group>"; };
+		685FCDC47CA87086D3A733AD /* Pods-amazon_music_copyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copyTests.release.xcconfig"; path = "Target Support Files/Pods-amazon_music_copyTests/Pods-amazon_music_copyTests.release.xcconfig"; sourceTree = "<group>"; };
+		766E73FDD4AECB70AF9A790F /* Pods-amazon_music_copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copy.debug.xcconfig"; path = "Target Support Files/Pods-amazon_music_copy/Pods-amazon_music_copy.debug.xcconfig"; sourceTree = "<group>"; };
+		79EB794B1E2FD294E1953579 /* Pods_amazon_music_copy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE6FA8ECE18379202A3E02D /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copy_amazon_music_copyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A8CCF8B9CCA31840C4B2BC /* Pods-amazon_music_copy-amazon_music_copyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copy-amazon_music_copyUITests.release.xcconfig"; path = "Target Support Files/Pods-amazon_music_copy-amazon_music_copyUITests/Pods-amazon_music_copy-amazon_music_copyUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BB1B2492F1388B9DA79195 /* Pods_amazon_music_copy.framework in Frameworks */,
+				AE82FC22DEC414B4C6939A1B /* Pods_amazon_music_copy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B2FE6E98C1B828354648E9F /* Pods_amazon_music_copyTests.framework in Frameworks */,
+				889899C5C245446EB415E3AA /* Pods_amazon_music_copyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D82DF76FDBBE5DB42C48480 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework in Frameworks */,
+				3BFBE2DA8573D5B39E8B4BED /* Pods_amazon_music_copy_amazon_music_copyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +111,7 @@
 				551A0A6B287AB63F00104617 /* amazon_music_copyUITests */,
 				551A0A4F287AB63B00104617 /* Products */,
 				62E6DE7C77B934130BFEA676 /* Pods */,
-				C29CF79ECEB236A3A851A887 /* Frameworks */,
+				C996E66C80052DEBE99667A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +209,9 @@
 		556112BF2883CAF200B80A52 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				556112C42883CE4200B80A52 /* MainString-Constants.swift */,
+				556112C22883CE3300B80A52 /* Image-Constants.swift */,
+				556112C02883CE2800B80A52 /* Color-Constants.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -210,22 +219,22 @@
 		62E6DE7C77B934130BFEA676 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				20AC3163C30430A6896D3362 /* Pods-amazon_music_copy.debug.xcconfig */,
-				9A4A71D5FE10A825F6EC81FB /* Pods-amazon_music_copy.release.xcconfig */,
-				83ED86F78D39DCB23FF244BC /* Pods-amazon_music_copy-amazon_music_copyUITests.debug.xcconfig */,
-				84DBC2ED7C02E75148F12B74 /* Pods-amazon_music_copy-amazon_music_copyUITests.release.xcconfig */,
-				8BF62DAD98A0499DADD3E85D /* Pods-amazon_music_copyTests.debug.xcconfig */,
-				BAEE7234527A204371BC384F /* Pods-amazon_music_copyTests.release.xcconfig */,
+				766E73FDD4AECB70AF9A790F /* Pods-amazon_music_copy.debug.xcconfig */,
+				47E22FAFA51167CFC354F0E1 /* Pods-amazon_music_copy.release.xcconfig */,
+				0E1ECF9AE9AF4C0C0DA5B1B5 /* Pods-amazon_music_copy-amazon_music_copyUITests.debug.xcconfig */,
+				C4A8CCF8B9CCA31840C4B2BC /* Pods-amazon_music_copy-amazon_music_copyUITests.release.xcconfig */,
+				037997C528DB28826862DAB4 /* Pods-amazon_music_copyTests.debug.xcconfig */,
+				685FCDC47CA87086D3A733AD /* Pods-amazon_music_copyTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C29CF79ECEB236A3A851A887 /* Frameworks */ = {
+		C996E66C80052DEBE99667A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8A8B3230CA96BD4404A5F344 /* Pods_amazon_music_copy.framework */,
-				C84F5FD418F91C02D6FA7FD5 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */,
-				E080F381D7AB426E695581DE /* Pods_amazon_music_copyTests.framework */,
+				79EB794B1E2FD294E1953579 /* Pods_amazon_music_copy.framework */,
+				7EE6FA8ECE18379202A3E02D /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */,
+				24EB57CB5A060364251B8A0E /* Pods_amazon_music_copyTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -237,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 551A0A72287AB63F00104617 /* Build configuration list for PBXNativeTarget "amazon_music_copy" */;
 			buildPhases = (
-				95FD8BA276DEAB55BEC07510 /* [CP] Check Pods Manifest.lock */,
+				8BFBCE6C23A630DEB40FBC77 /* [CP] Check Pods Manifest.lock */,
 				551A0A4A287AB63B00104617 /* Sources */,
 				551A0A4B287AB63B00104617 /* Frameworks */,
 				551A0A4C287AB63B00104617 /* Resources */,
@@ -255,7 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 551A0A75287AB63F00104617 /* Build configuration list for PBXNativeTarget "amazon_music_copyTests" */;
 			buildPhases = (
-				51F2B4DCABCC0A1D060283FB /* [CP] Check Pods Manifest.lock */,
+				8B8478F90E9E301BC08C3E2E /* [CP] Check Pods Manifest.lock */,
 				551A0A5A287AB63F00104617 /* Sources */,
 				551A0A5B287AB63F00104617 /* Frameworks */,
 				551A0A5C287AB63F00104617 /* Resources */,
@@ -274,7 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 551A0A78287AB63F00104617 /* Build configuration list for PBXNativeTarget "amazon_music_copyUITests" */;
 			buildPhases = (
-				C29AC3FC4B6DFEC280386135 /* [CP] Check Pods Manifest.lock */,
+				C85C546806FF0BAA96FE005D /* [CP] Check Pods Manifest.lock */,
 				551A0A64287AB63F00104617 /* Sources */,
 				551A0A65287AB63F00104617 /* Frameworks */,
 				551A0A66287AB63F00104617 /* Resources */,
@@ -362,7 +371,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		51F2B4DCABCC0A1D060283FB /* [CP] Check Pods Manifest.lock */ = {
+		8B8478F90E9E301BC08C3E2E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,7 +393,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		95FD8BA276DEAB55BEC07510 /* [CP] Check Pods Manifest.lock */ = {
+		8BFBCE6C23A630DEB40FBC77 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,7 +415,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C29AC3FC4B6DFEC280386135 /* [CP] Check Pods Manifest.lock */ = {
+		C85C546806FF0BAA96FE005D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -435,9 +444,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556112C12883CE2800B80A52 /* Color-Constants.swift in Sources */,
 				556112B42883BF3F00B80A52 /* ImageOfRoundedCorners.swift in Sources */,
 				556112B62883C19E00B80A52 /* ImageWithTextItem.swift in Sources */,
+				556112C32883CE3300B80A52 /* Image-Constants.swift in Sources */,
 				551A0A54287AB63B00104617 /* ContentView.swift in Sources */,
+				556112C52883CE4200B80A52 /* MainString-Constants.swift in Sources */,
 				551A0A52287AB63B00104617 /* amazon_music_copyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,7 +603,7 @@
 		};
 		551A0A73287AB63F00104617 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20AC3163C30430A6896D3362 /* Pods-amazon_music_copy.debug.xcconfig */;
+			baseConfigurationReference = 766E73FDD4AECB70AF9A790F /* Pods-amazon_music_copy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -621,7 +633,7 @@
 		};
 		551A0A74287AB63F00104617 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A4A71D5FE10A825F6EC81FB /* Pods-amazon_music_copy.release.xcconfig */;
+			baseConfigurationReference = 47E22FAFA51167CFC354F0E1 /* Pods-amazon_music_copy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -651,7 +663,7 @@
 		};
 		551A0A76287AB63F00104617 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BF62DAD98A0499DADD3E85D /* Pods-amazon_music_copyTests.debug.xcconfig */;
+			baseConfigurationReference = 037997C528DB28826862DAB4 /* Pods-amazon_music_copyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -672,7 +684,7 @@
 		};
 		551A0A77287AB63F00104617 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAEE7234527A204371BC384F /* Pods-amazon_music_copyTests.release.xcconfig */;
+			baseConfigurationReference = 685FCDC47CA87086D3A733AD /* Pods-amazon_music_copyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -693,7 +705,7 @@
 		};
 		551A0A79287AB63F00104617 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83ED86F78D39DCB23FF244BC /* Pods-amazon_music_copy-amazon_music_copyUITests.debug.xcconfig */;
+			baseConfigurationReference = 0E1ECF9AE9AF4C0C0DA5B1B5 /* Pods-amazon_music_copy-amazon_music_copyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -712,7 +724,7 @@
 		};
 		551A0A7A287AB63F00104617 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84DBC2ED7C02E75148F12B74 /* Pods-amazon_music_copy-amazon_music_copyUITests.release.xcconfig */;
+			baseConfigurationReference = C4A8CCF8B9CCA31840C4B2BC /* Pods-amazon_music_copy-amazon_music_copyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
