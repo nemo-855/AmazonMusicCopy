@@ -9,22 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ImageWithTextItem()
+        HomeScreen()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        GeometryReader { metrics in
-            VStack {
-                ImageOfRoundedCorners(
-                    imagePath: Images.niziu.name,
-                    cornerRadius: 20
-                ).frame(
-                    width: metrics.size.width * 0.4,
-                    height: metrics.size.width * 0.4
-                )
-            }
-        }
+        HomeScreen()
     }
 }

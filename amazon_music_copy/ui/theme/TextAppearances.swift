@@ -22,7 +22,7 @@ struct MediumText : View {
     
     var body: some View {
         Text(text)
-            .font(.system(size: 20))
+            .font(.system(size: 16))
             .foregroundColor(color)
     }
 }
@@ -41,7 +41,7 @@ struct SmallText : View {
     
     var body: some View {
         Text(text)
-            .font(.system(size: 16))
+            .font(.system(size: 14))
             .foregroundColor(color)
     }
 }

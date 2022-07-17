@@ -23,7 +23,7 @@ struct ImageOfRoundedCorners : View {
     var body: some View {
         Image(imagePath)
             .resizable()
-            .aspectRatio(1/1, contentMode: .fit)
+            .aspectRatio(1/1, contentMode: .fill)
             .cornerRadius(cornerRadius)
     }
 }
