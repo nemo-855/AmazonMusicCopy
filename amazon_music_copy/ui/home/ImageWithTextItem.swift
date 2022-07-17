@@ -13,7 +13,7 @@ struct ImageWithTextItem : View {
         VStack(alignment: HorizontalAlignment.leading) {
             ImageOfRoundedCorners(
                 imagePath: Images.niziu.name,
-                cornerRadius: 8
+                cornerRadius: Dimentions.mediumCornerRadius
             )
             MediumText(
                 text: "2022年上半期 Best"

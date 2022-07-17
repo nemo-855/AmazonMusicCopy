@@ -24,6 +24,7 @@
 		556112C52883CE4200B80A52 /* MainString-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112C42883CE4200B80A52 /* MainString-Constants.swift */; };
 		556112CB2883E98D00B80A52 /* TextAppearances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112CA2883E98D00B80A52 /* TextAppearances.swift */; };
 		556112CD2883F0E900B80A52 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112CC2883F0E900B80A52 /* HomeScreen.swift */; };
+		556112CF2883F42200B80A52 /* Dimentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112CE2883F42200B80A52 /* Dimentions.swift */; };
 		9AF54A4B7E1DA414FD669652 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FCA5806987C97A8B644C21 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */; };
 		B60769539BA9732E4776808C /* Pods_amazon_music_copyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90869BA09F4775C49A68FF3E /* Pods_amazon_music_copyTests.framework */; };
 		EBAE3F275BB97D607B96617C /* Pods_amazon_music_copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA97B62C2FF534A07A161376 /* Pods_amazon_music_copy.framework */; };
@@ -69,6 +70,7 @@
 		556112C42883CE4200B80A52 /* MainString-Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainString-Constants.swift"; sourceTree = "<group>"; };
 		556112CA2883E98D00B80A52 /* TextAppearances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAppearances.swift; sourceTree = "<group>"; };
 		556112CC2883F0E900B80A52 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		556112CE2883F42200B80A52 /* Dimentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimentions.swift; sourceTree = "<group>"; };
 		5C6AB6ED9E5BCCAF775AA5C2 /* Pods-amazon_music_copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copy.debug.xcconfig"; path = "Target Support Files/Pods-amazon_music_copy/Pods-amazon_music_copy.debug.xcconfig"; sourceTree = "<group>"; };
 		88FCA5806987C97A8B644C21 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copy_amazon_music_copyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90869BA09F4775C49A68FF3E /* Pods_amazon_music_copyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -209,6 +211,7 @@
 				556112B72883C71B00B80A52 /* Color.xcassets */,
 				556112B92883C73700B80A52 /* Image.xcassets */,
 				556112BC2883CA8900B80A52 /* main.strings */,
+				556112CE2883F42200B80A52 /* Dimentions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				556112CB2883E98D00B80A52 /* TextAppearances.swift in Sources */,
 				556112C12883CE2800B80A52 /* Color-Constants.swift in Sources */,
 				556112B42883BF3F00B80A52 /* ImageOfRoundedCorners.swift in Sources */,
+				556112CF2883F42200B80A52 /* Dimentions.swift in Sources */,
 				556112B62883C19E00B80A52 /* ImageWithTextItem.swift in Sources */,
 				556112C32883CE3300B80A52 /* Image-Constants.swift in Sources */,
 				556112CD2883F0E900B80A52 /* HomeScreen.swift in Sources */,
