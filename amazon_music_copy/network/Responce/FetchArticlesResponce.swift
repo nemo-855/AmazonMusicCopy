@@ -25,7 +25,7 @@ struct FetchArticleResponce: Codable {
 
 struct UserResponce: Codable {
     let name: String
-    let description: String
+    let description: String?
     
     func toUser() -> User {
         return User(

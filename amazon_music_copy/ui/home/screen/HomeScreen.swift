@@ -9,6 +9,14 @@ import Foundation
 import SwiftUI
 
 struct HomeScreen : View {
+    @ObservedObject var store: HomeScreenStore
+    private let actionCreator: ActionCreator
+    
+    init() {
+        store = HomeScreenStore.shared
+        actionCreator = ActionCreator()
+    }
+    
     var body: some View {
         GeometryReader { metrics in
             VStack(
@@ -17,11 +25,17 @@ struct HomeScreen : View {
             ) {
                 TitleItem()
                 
-                ImageWithTextItem()
-                    .frame(
-                        width: metrics.size.width * 0.4,
-                        height: metrics.size.width * 0.5
-                    )
+                ScrollView(.horizontal) {
+                    LazyHStack {
+                        ForEach(store.articles) { article in
+                            ImageWithTextItem(article: article)
+                                .frame(
+                                    width: metrics.size.width * 0.4,
+                                    height: metrics.size.width * 0.5
+                                )
+                        }
+                    }
+                }
             }
             .frame(
                 maxWidth: .infinity,
@@ -30,6 +44,9 @@ struct HomeScreen : View {
             )
             .padding(.leading, Dimentions.marginMedium)
             .padding(.trailing, Dimentions.marginMedium)
+            .onAppear {
+                actionCreator.getArticles()
+            }
         }
     }
 }

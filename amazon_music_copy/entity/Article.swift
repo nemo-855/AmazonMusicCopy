@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Article {
+struct Article: Identifiable {
     let id: String
     let url: String
     let title: String

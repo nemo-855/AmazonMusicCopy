@@ -9,7 +9,7 @@ import Foundation
 
 final class HomeScreenStore : Store {
     static let shared = HomeScreenStore(dispatcher: .shared)
-    @Published var articles = [Article]()
+    @Published private(set) var articles: [Article] = []
     
     override func onDispatch(_ action: Action) {
         switch action {
