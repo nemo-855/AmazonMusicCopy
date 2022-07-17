@@ -22,6 +22,7 @@
 		556112C12883CE2800B80A52 /* Color-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112C02883CE2800B80A52 /* Color-Constants.swift */; };
 		556112C32883CE3300B80A52 /* Image-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112C22883CE3300B80A52 /* Image-Constants.swift */; };
 		556112C52883CE4200B80A52 /* MainString-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112C42883CE4200B80A52 /* MainString-Constants.swift */; };
+		556112CB2883E98D00B80A52 /* TextAppearances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556112CA2883E98D00B80A52 /* TextAppearances.swift */; };
 		9AF54A4B7E1DA414FD669652 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FCA5806987C97A8B644C21 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */; };
 		B60769539BA9732E4776808C /* Pods_amazon_music_copyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90869BA09F4775C49A68FF3E /* Pods_amazon_music_copyTests.framework */; };
 		EBAE3F275BB97D607B96617C /* Pods_amazon_music_copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA97B62C2FF534A07A161376 /* Pods_amazon_music_copy.framework */; };
@@ -65,6 +66,7 @@
 		556112C02883CE2800B80A52 /* Color-Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color-Constants.swift"; sourceTree = "<group>"; };
 		556112C22883CE3300B80A52 /* Image-Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image-Constants.swift"; sourceTree = "<group>"; };
 		556112C42883CE4200B80A52 /* MainString-Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainString-Constants.swift"; sourceTree = "<group>"; };
+		556112CA2883E98D00B80A52 /* TextAppearances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAppearances.swift; sourceTree = "<group>"; };
 		5C6AB6ED9E5BCCAF775AA5C2 /* Pods-amazon_music_copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon_music_copy.debug.xcconfig"; path = "Target Support Files/Pods-amazon_music_copy/Pods-amazon_music_copy.debug.xcconfig"; sourceTree = "<group>"; };
 		88FCA5806987C97A8B644C21 /* Pods_amazon_music_copy_amazon_music_copyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copy_amazon_music_copyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90869BA09F4775C49A68FF3E /* Pods_amazon_music_copyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_music_copyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +176,7 @@
 		551A0A7B287AB6C700104617 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				556112C72883D81B00B80A52 /* theme */,
 				551A0A7D287AB6E900104617 /* home */,
 				551A0A7C287AB6D500104617 /* common */,
 			);
@@ -224,6 +227,14 @@
 				556112C02883CE2800B80A52 /* Color-Constants.swift */,
 			);
 			path = Generated;
+			sourceTree = "<group>";
+		};
+		556112C72883D81B00B80A52 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				556112CA2883E98D00B80A52 /* TextAppearances.swift */,
+			);
+			path = theme;
 			sourceTree = "<group>";
 		};
 		62E6DE7C77B934130BFEA676 /* Pods */ = {
@@ -444,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556112CB2883E98D00B80A52 /* TextAppearances.swift in Sources */,
 				556112C12883CE2800B80A52 /* Color-Constants.swift in Sources */,
 				556112B42883BF3F00B80A52 /* ImageOfRoundedCorners.swift in Sources */,
 				556112B62883C19E00B80A52 /* ImageWithTextItem.swift in Sources */,
