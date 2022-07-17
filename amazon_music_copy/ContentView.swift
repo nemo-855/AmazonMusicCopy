@@ -9,13 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ImageWithTextItem()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ImageWithTextItem()
+        GeometryReader { metrics in
+            VStack {
+                ImageOfRoundedCorners(
+                    imagePath: Images.niziu.name,
+                    cornerRadius: 20
+                ).frame(
+                    width: metrics.size.width * 0.4,
+                    height: metrics.size.width * 0.4
+                )
+            }
+        }
     }
 }

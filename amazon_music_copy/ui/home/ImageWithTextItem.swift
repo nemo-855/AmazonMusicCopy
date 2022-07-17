@@ -10,14 +10,9 @@ import SwiftUI
 
 struct ImageWithTextItem : View {
     var body: some View {
-        VStack {
-            ImageOfRoundedCorners(
-                imagePath: Images.niziu.name,
-                cornerRadius: 20
-            )
-        }.aspectRatio(
-            1/1,
-            contentMode: .fill
+        ImageOfRoundedCorners(
+            imagePath: Images.niziu.name,
+            cornerRadius: 20
         )
     }
 }
