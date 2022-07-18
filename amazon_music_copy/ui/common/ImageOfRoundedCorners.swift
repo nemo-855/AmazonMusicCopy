@@ -9,21 +9,29 @@ import Foundation
 import SwiftUI
 
 struct ImageOfRoundedCorners : View {
-    private let imagePath: String
+    private let imageUrl: String
     private let cornerRadius: CGFloat
     
     init (
-        imagePath: String,
+        imageUrl: String,
         cornerRadius: CGFloat
     ) {
-        self.imagePath = imagePath
+        self.imageUrl = imageUrl
         self.cornerRadius = cornerRadius
     }
     
     var body: some View {
-        Image(imagePath)
-            .resizable()
-            .aspectRatio(1/1, contentMode: .fill)
-            .cornerRadius(cornerRadius)
+        AsyncImage(url: URL(string: imageUrl)) { phase in
+            if let image = phase.image {
+                image
+                    .resizable()
+                    .aspectRatio(1/1, contentMode: .fill)
+            } else {
+                Image(Images.niziu.name)
+                    .resizable()
+                    .aspectRatio(1/1, contentMode: .fill)
+            }
+        }
+        .cornerRadius(cornerRadius)
     }
 }

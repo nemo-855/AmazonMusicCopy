@@ -9,17 +9,23 @@ import Foundation
 import SwiftUI
 
 struct ImageWithTextItem : View {
+    private let article: Article
+    
+    init(article: Article) {
+        self.article = article
+    }
+    
     var body: some View {
         VStack(alignment: HorizontalAlignment.leading) {
             ImageOfRoundedCorners(
-                imagePath: Images.niziu.name,
+                imageUrl: article.user.imageUrl,
                 cornerRadius: Dimentions.mediumCornerRadius
             )
             MediumText(
-                text: "2022年上半期 Best"
+                text: article.title
             ).lineLimit(1)
             SmallText(
-                text: "Aimer, 優里, Ado 他にもいっぱい！",
+                text: article.user.name,
                 color: Color(Colors.gray.name)
             ).lineLimit(1)
         }

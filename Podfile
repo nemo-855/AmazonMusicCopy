@@ -8,11 +8,15 @@ target 'amazon_music_copy' do
   # swiftGen
   pod 'SwiftGen', '~> 6.0'
 
+  # Alamofire
+  pod 'Alamofire'
+
   # Pods for amazon_music_copy
 
   target 'amazon_music_copyTests' do
     inherit! :search_paths
     # Pods for testing
+
   end
 
   target 'amazon_music_copyUITests' do

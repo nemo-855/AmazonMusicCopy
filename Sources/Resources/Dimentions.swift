@@ -9,7 +9,8 @@ import Foundation
 import SwiftUI
 
 class Dimentions {
-    static let marginMedium: Int = 16
-    static let marginSmall: Int = 8
+    static let marginLarge: CGFloat = 32
+    static let marginMedium: CGFloat = 16
+    static let marginSmall: CGFloat = 8
     static let mediumCornerRadius: CGFloat = 8
 }

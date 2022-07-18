@@ -8,6 +8,26 @@
 import Foundation
 import SwiftUI
 
+struct HeaderText : View {
+    private let text: String
+    private let color: Color
+    
+    init(
+        text: String,
+        color: Color? = nil
+    ) {
+        self.text = text
+        self.color = color ?? Color(Colors.white.name)
+    }
+    
+    var body: some View {
+        Text(text)
+            .font(.system(size: 18))
+            .fontWeight(.bold)
+            .foregroundColor(color)
+    }
+}
+
 struct MediumText : View {
     private let text: String
     private let color: Color
