@@ -23,7 +23,9 @@ final class ArticleRequest {
                 return
             }
             do {
-                let articles = try JSONDecoder().decode([FetchArticleResponce].self, from: data)
+                let jsonDecoder = JSONDecoder()
+                jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
+                let articles = try jsonDecoder.decode([FetchArticleResponce].self, from: data)
                 handler(.success(articles.map { article in
                     article.toArticle()
                 }))

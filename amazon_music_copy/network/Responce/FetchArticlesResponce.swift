@@ -26,11 +26,13 @@ struct FetchArticleResponce: Codable {
 struct UserResponce: Codable {
     let name: String
     let description: String?
+    let profileImageUrl: String
     
     func toUser() -> User {
         return User(
             name: name,
-            description: description
+            description: description,
+            imageUrl: profileImageUrl
         )
     }
 }

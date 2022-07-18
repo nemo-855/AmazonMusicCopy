@@ -18,14 +18,14 @@ struct ImageWithTextItem : View {
     var body: some View {
         VStack(alignment: HorizontalAlignment.leading) {
             ImageOfRoundedCorners(
-                imagePath: Images.niziu.name,
+                imageUrl: article.user.imageUrl,
                 cornerRadius: Dimentions.mediumCornerRadius
             )
             MediumText(
                 text: article.title
             ).lineLimit(1)
             SmallText(
-                text: article.title,
+                text: article.user.name,
                 color: Color(Colors.gray.name)
             ).lineLimit(1)
         }
